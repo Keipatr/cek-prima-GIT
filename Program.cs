@@ -9,8 +9,7 @@ namespace cek_prima_GIT
             Console.Write("Input angka = ");
             int angka = Convert.ToInt32(Console.ReadLine());
             int counter = 0;
-
-            for (int i = 1; i < angka; i++)
+            for (int i = 1; i <= angka; i++)
                 if (angka % i == 0)
                     counter = counter + 1;
             if (counter > 2)
